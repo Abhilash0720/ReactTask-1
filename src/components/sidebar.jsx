@@ -12,48 +12,40 @@ function sidebar() {
 
 
 <li className="nav-item active">
-     <img src="./src/Icons/Dashicon.svg"/>
      <span className="dash">Dashboard</span>
 </li>
 
 
 <li className="nav-item">
-    <img src="./src/Icons/lab icon.svg"/>
-    <span>Lab Test</span>
+    <span className="lab">Lab Test</span>
 </li>
 
 
 <li className="nav-item">
-     <img src="./src/Icons/appointment icon.svg"/>
-     <span>Appointment</span>
+     <span className="appointment">Appointment</span>
 </li>
 
 
 <li> 
-    <img src="./src/Icons/medicine icon.svg"/>
-    <span>Medicine Order</span>
+    <span className="medicine">Medicine Order</span>
 </li>
 
 
 <li className="nav-item">
-        <img src="./src/Icons/message icon.svg"/>
-        <span>Message</span>
+         <span className="message">Message</span>
 </li>
 
 <li className="nav-item">
-        <img src="./src/Icons/payment icon.svg"/>
-        <span>Payment</span>
+       <span className="payment">Payment</span>
 </li>
 
 
 <li className="nav-item">
-    <img src="./src/Icons/setting icon.svg"/>
-     <span>Settings</span>
+    <span className="setting">Settings</span>
 </li>
 <br/><br/><br/><br/><br/><br/><br/><br/><br/>
 <li>
-   <img src="./src/Icons/Question.svg"/>
-   <span>Help</span>
+   <span className="help">Help</span>
    </li>
 </ul>
 

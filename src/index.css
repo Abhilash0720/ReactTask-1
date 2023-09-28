@@ -25,8 +25,33 @@ li{
   width: 600px;
   padding: 10px;
  }
+ .dash::before{
+  content: url(./Icons/Dashicon.svg);
+ }
+ .lab::before{
+  content: url(./Icons/labicon.svg);
+ }
  .container-fluid::before{
     content: url(./Icons/searchicon.svg);
+ }
+ .appointment::before{
+  content: url(./Icons/appointmenticon.svg);
+  
+ }
+ .medicine::before{
+  content: url(./Icons/medicineicon.svg);
+ }
+  .message::before{
+  content: url(./Icons/messageicon.svg);
+ }
+ .payment::before{ 
+  content: url(./Icons/paymenticon.svg);
+ }
+ .setting::before{
+  content: url(./Icons/settingicon.svg);
+ }
+ .help::before{
+  content: url(./Icons/Question.svg);
  }
  .headsection{
   margin: 30px;
