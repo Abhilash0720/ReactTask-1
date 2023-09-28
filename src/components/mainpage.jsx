@@ -2,23 +2,23 @@ import React from 'react'
 function mainpage() {
   return <> 
   <div className="container-fluid">
-  <input className="section" type="text" placeholder='Search'/>
+     <input className="section" type="text" placeholder='Search'/>  
+     <b><h3 className="headsection">Sales Information</h3></b>
 
-  <b><h3 className="headsection">Sales Information</h3></b>
-  <div>
-  <label  type="name">Customer</label>&nbsp;
-  <input  type="text" id="name" placeholder="Enter Customer Name"/>
-   &nbsp;
-   &nbsp;
-  <label  type="name2">Invoice Id</label>&nbsp;
-  <input  type="text" id="name2" placeholder="Enter Invoice Id"/>
-  &nbsp;
-  &nbsp;
-  <label  type="name3">start Date</label>&nbsp;
-  <input  type="text" id="name3" placeholder="Enter Start Date"/>
-  &nbsp;
-  &nbsp;
-  <label type="name4">End Date</label>&nbsp;
+      <div className="inputlabel">
+        <h5>Customer</h5>
+        <h5>Invoice ID</h5>
+        <h5>Start Date</h5>
+        <h5>End Date</h5>
+      </div>
+  <div className="inputtype">
+  
+  <input  type="text" id="name" placeholder="Enter Customer Name"/><br/>
+   
+  <input  type="text" id="name2" placeholder="Enter Invoice Id"/><br/>
+  
+  <input  type="text" id="name3" placeholder="Enter Start Date"/><br/>
+  
   <input  type="text" id="name4" placeholder="Enter End Date"/>
   </div>
   
